@@ -1,0 +1,5 @@
+version: 1.2
+workflows:
+  - name: gsutil_cp
+    subclass: WDL
+    primaryDescriptorPath: /gsutil_cp.6.wdl
